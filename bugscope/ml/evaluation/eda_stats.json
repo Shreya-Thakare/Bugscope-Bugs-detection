@@ -1,0 +1,30 @@
+{
+  "total_records": 10000,
+  "defective_modules": 5133,
+  "clean_modules": 4867,
+  "mean_loc": 545.4571,
+  "mean_complexity": 12.05299,
+  "mean_churn": 21.809369999999998,
+  "languages": {
+    "Java": 3169,
+    "C++": 2207,
+    "Python": 2082,
+    "C#": 1583,
+    "JavaScript": 959
+  },
+  "module_types": {
+    "Core": 2854,
+    "API": 2017,
+    "Data": 1445,
+    "Utility": 1379,
+    "UI": 1368,
+    "Test": 937
+  },
+  "system_snapshot": {
+    "projects_tracked": 6,
+    "modules_in_portfolio": 12,
+    "open_alerts": 4,
+    "predictions_24h": 1847,
+    "high_risk_open": 23
+  }
+}

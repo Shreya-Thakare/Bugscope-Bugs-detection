@@ -1,0 +1,81 @@
+{
+  "best_model": "gradient_boosting",
+  "results": {
+    "random_forest": {
+      "accuracy": 0.636,
+      "precision": 0.6861768368617683,
+      "recall": 0.5365141187925998,
+      "f1": 0.6021857923497268,
+      "roc_auc": 0.6841347342212473,
+      "confusion_matrix": [
+        [
+          721,
+          252
+        ],
+        [
+          476,
+          551
+        ]
+      ]
+    },
+    "gradient_boosting": {
+      "accuracy": 0.6295,
+      "precision": 0.6662790697674419,
+      "recall": 0.557935735150925,
+      "f1": 0.6073131955484896,
+      "roc_auc": 0.6835563125518503,
+      "confusion_matrix": [
+        [
+          686,
+          287
+        ],
+        [
+          454,
+          573
+        ]
+      ]
+    }
+  },
+  "feature_importance": {
+    "code_churn": 0.21380921800288583,
+    "halstead_effort": 0.14156601936140442,
+    "team_experience": 0.09122042303813134,
+    "halstead_volume": 0.07379898811685798,
+    "cyclomatic_complexity": 0.05979169697146818,
+    "num_lines": 0.04467477704530506,
+    "essential_complexity": 0.04320915701806057,
+    "edge_count": 0.04310385218602141,
+    "branch_count": 0.041838594283800934,
+    "num_operators": 0.03758235856737181,
+    "num_operands": 0.036212452698974565,
+    "num_unique_operators": 0.03206777250044978,
+    "loc_blank": 0.031030188774599277,
+    "loc_executable": 0.030688700630027297,
+    "loc_comment": 0.02939834859236853,
+    "loc": 0.021285290974717413,
+    "node_count": 0.01759491971713598,
+    "module_type": 0.011127241520419624
+  },
+  "selected_features": [
+    "module_type",
+    "loc",
+    "loc_executable",
+    "loc_comment",
+    "loc_blank",
+    "num_lines",
+    "cyclomatic_complexity",
+    "essential_complexity",
+    "branch_count",
+    "edge_count",
+    "node_count",
+    "num_operators",
+    "num_operands",
+    "num_unique_operators",
+    "halstead_volume",
+    "halstead_effort",
+    "code_churn",
+    "team_experience"
+  ],
+  "n_samples": 10000,
+  "defect_rate": 0.5133
+}
