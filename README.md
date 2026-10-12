@@ -134,6 +134,9 @@ See `database/schema.sql` for `projects`, `modules`, `predictions`, `alerts`.
 
 MIT — see [LICENSE](LICENSE).
 
+## Visuals
+https://bugscopebugdetection.vercel.app
+
 ## Roadmap ideas
 
 - Persist predictions to SQL (history is browser-local for now)
